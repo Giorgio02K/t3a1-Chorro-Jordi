@@ -93,5 +93,31 @@
         app:layout_constraintTop_toBottomOf="@id/imageView"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/recetaContenido"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut varius libero. Vivamus nisl libero, commodo dapibus placerat at, volutpat eu eros. Curabitur non semper augue, vitae pellentesque ex."
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/descripcionContenido"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ut varius libero. Vivamus nisl libero, commodo dapibus placerat at, volutpat eu eros. Curabitur non semper augue, vitae pellentesque ex."
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="@+id/guideline2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="288dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
